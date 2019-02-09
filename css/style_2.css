@@ -73,6 +73,10 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 300;
 }
 
+h2 {
+	color: "white";
+}
+
 /* ==========================================================================
    MENU CONFIGURATION
    ========================================================================== */
@@ -417,7 +421,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .contact {
-	background-image: url(../img/contact-sep.jpg);background-size:100%
+	background-image: url(../img/contact-sep.png);background-size:100%
 }
 
 #contactwrap label {
