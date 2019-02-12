@@ -113,7 +113,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .menu h1.logo a {
 	font-family: "Oswald", sans-serif;
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: 700;
 	letter-spacing: 0.15em;
 	line-height: 40px;
@@ -271,11 +271,21 @@ h1, h2, h3, h4, h5, h6 {
 
 #headerwrap h1 {
 	color:#ffffff;
-	margin-top: 90px;
+	margin-top: 0px;
 	padding-bottom: 30px;
 	letter-spacing: 8px;
 	font-size: 100px;
-	font-weight: bold;
+	/*font-weight: bold;*/
+	text-shadow: 2px 2px 2px #000;
+}
+
+h6{
+	color:#ffffff;
+	margin-top: 5px;
+	padding-bottom: 30px;
+	letter-spacing: 8px;
+	font-size: 30px;
+	/*font-weight: bold;*/
 	text-shadow: 2px 2px 2px #000;
 }
 
@@ -298,11 +308,12 @@ h1, h2, h3, h4, h5, h6 {
 .name-label {
 	width: 60px;
 	height: 60px;
-	margin: 0 auto 45px;
+	margin: 30px auto 0;
 	border-top: 1px solid #000;
 	background: url(../img/name-label.png) center bottom no-repeat;
 	background-size: 35px 35px;
 }
+
 
 .name-zig {
 	width: 50px;
@@ -322,6 +333,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .name-desc h2 {
 	font-family: 'Oswald', sans-serif;
+	margin: 0px 16px 38px;
 	font-size: 40px;
 	line-height: 1.45;
 	font-weight: 300;
@@ -332,7 +344,7 @@ h1, h2, h3, h4, h5, h6 {
 	background-attachment: fixed;
 	background-position: 50% 0;
 	background-repeat: no-repeat;
-	height: 450px;
+	height: 200px;
 	position: relative;
 }
 .about {
@@ -349,10 +361,10 @@ h1, h2, h3, h4, h5, h6 {
 #portfoliowrap h1 {
 	font-weight: 300;
 	text-align: center;
-	margin-bottom: 50px;
 }
 .mt {
 	margin-top: 50px;
+	margin-bottom: 20px
 }
 
 .mb {
@@ -375,6 +387,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .portfolio {
+	margin-top: 50px;
 	background-image: url(../img/portfolio-sep.jpg); center; background-size: 80%
 }
 
@@ -388,7 +401,7 @@ h1, h2, h3, h4, h5, h6 {
 #servicewrap h1 {
 	font-weight: 300;
 	text-align: center;
-	margin-bottom: 20px;
+	margin-bottom: 50px;
 }
 
 .service {
@@ -415,7 +428,7 @@ h1, h2, h3, h4, h5, h6 {
 #testimonials {
 	display: block;
 	margin-top: 80px;
-	margin-bottom: 80px;
+	margin-bottom: 50px;
 	background-color: #f3f3f3;
 }
 
@@ -436,12 +449,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .contact {
+	margin-top: 0px;
 	background-image: url(../img/contact-sep.png); center; background-size: 80%
 }
 
 #contactwrap label {
 	color: #f2f2f2;
-	margin-top: 10px;
 }
 
 
@@ -491,6 +504,11 @@ h1, h2, h3, h4, h5, h6 {
   filter: alpha(opacity=10000);
   opacity: 1;
   filter: alpha(opacity=100);
+}
+
+.project a
+{
+color: inherit;
 }
 
 .desc {
